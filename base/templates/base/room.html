@@ -167,10 +167,10 @@
         {% for user in participants %}
         <a href="{% url 'user-profile' user.id %}" class="participant">
           <div class="avatar avatar--medium">
-            <img src="https://randomuser.me/api/portraits/men/37.jpg" />
+            <img src="{{user.avatar.url}}" />
           </div>
           <p>
-            {{user.username}}
+            {{user.name}}
             <span>@{{user.username}}</span>
           </p>
         </a>
@@ -180,5 +180,5 @@
     <!--  End -->
   </div>
 </main>
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 {% endblock content %}

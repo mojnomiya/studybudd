@@ -160,8 +160,8 @@ a {
 }
 
 .avatar.avatar--small img {
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 2.9rem;
+  height: 2.9rem;
 }
 
 .avatar.avatar--small:after {
@@ -186,8 +186,8 @@ a {
 
 .avatar.avatar--large img {
   display: block;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
 }
 

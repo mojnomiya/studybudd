@@ -8,7 +8,13 @@
       <div class="avatar avatar--small">
         <img src="{{room.host.avatar.url}}" />
       </div>
-      <span>@{{room.host.username}}</span>
+      <div>
+        <div>
+          <span>{{room.host.name}}</span>
+        </div>
+        <span>@{{room.host.username}}</span>
+      </div>
+      
     </a>
     <div class="roomListRoom__actions">
       <span>{{room.created|timesince}} ago</span>
